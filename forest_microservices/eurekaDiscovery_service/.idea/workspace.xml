@@ -10,9 +10,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,8 +32,7 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.EurekaDiscoveryServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;auto__detect__position&quot;,
+    &quot;Spring Boot.EurekaDiscoveryServiceApplication.executor&quot;: &quot;Debug&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Nourdine/Documents/Nouri/desc/SOA/app/discoveryService&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -83,21 +79,6 @@
       <workItem from="1723474896774" duration="1286000" />
       <workItem from="1723504170940" duration="622000" />
       <workItem from="1723505149270" duration="40000" />
-      <workItem from="1723594923277" duration="916000" />
-      <workItem from="1723607846590" duration="1242000" />
-      <workItem from="1723689434684" duration="306000" />
-      <workItem from="1723782599368" duration="73000" />
-      <workItem from="1723786598050" duration="701000" />
-      <workItem from="1723799591864" duration="1316000" />
-      <workItem from="1723882950463" duration="1247000" />
-      <workItem from="1723896565647" duration="1946000" />
-      <workItem from="1723909701843" duration="639000" />
-      <workItem from="1723973712513" duration="609000" />
-      <workItem from="1723987148869" duration="622000" />
-      <workItem from="1724073066956" duration="64000" />
-      <workItem from="1724098288041" duration="802000" />
-      <workItem from="1724145211035" duration="634000" />
-      <workItem from="1724171552493" duration="595000" />
     </task>
     <servers />
   </component>

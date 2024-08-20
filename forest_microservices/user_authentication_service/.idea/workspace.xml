@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9474b8e4-639d-463e-8195-fc8589dd1939" name="Changes" comment="optimized login and register features" />
+    <list default="true" id="9474b8e4-639d-463e-8195-fc8589dd1939" name="Changes" comment="optimized login and register features">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/ForestApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/ForestApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/Role/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/Role/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/auth/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/auth/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/auth/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/auth/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/auth/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/auth/RegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/config/BeansConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/config/BeansConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/config/PasswordBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/config/PasswordBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/exeption/EmailAlreadyExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/exeption/EmailAlreadyExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/security/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/security/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/forest/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/users/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/noureddine/forest/ForestApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/noureddine/users/ForestApiApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,30 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ForestApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/stage/forest_securer/forest_securer_app/forest_microservices/report_service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ForestApiApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/forest_reporter/forest_microservices/report_service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -129,19 +147,6 @@
       <workItem from="1723413698468" duration="2454000" />
       <workItem from="1723474902474" duration="2536000" />
       <workItem from="1723504138818" duration="651000" />
-      <workItem from="1723508361843" duration="7000" />
-      <workItem from="1723508392891" duration="307000" />
-      <workItem from="1723594942072" duration="1172000" />
-      <workItem from="1723607854629" duration="1297000" />
-      <workItem from="1723689442369" duration="298000" />
-      <workItem from="1723786693873" duration="1644000" />
-      <workItem from="1723799587251" duration="1350000" />
-      <workItem from="1723882945081" duration="148000" />
-      <workItem from="1723901652480" duration="3499000" />
-      <workItem from="1723909707768" duration="1761000" />
-      <workItem from="1724098294724" duration="1089000" />
-      <workItem from="1724145198241" duration="1487000" />
-      <workItem from="1724171555887" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="created the user class">
       <option name="closed" value="true" />
