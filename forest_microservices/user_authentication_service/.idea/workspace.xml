@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9474b8e4-639d-463e-8195-fc8589dd1939" name="Changes" comment="optimized login and register features" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2jyrCDR5qJAGK0wQDdQwnFZgm3f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ForestApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/stage/forest_securer/forest_securer_app/forest_microservices/report_service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.noureddine.forest.auth" />
+      <recent name="com.noureddine.forest.email" />
+      <recent name="com.noureddine.forest.security" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ForestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user_athentication_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.noureddine.users.ForestApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9474b8e4-639d-463e-8195-fc8589dd1939" name="Changes" comment="" />
+      <created>1722370028879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722370028879</updated>
+      <workItem from="1722370029577" duration="2014000" />
+      <workItem from="1722373616771" duration="26473000" />
+      <workItem from="1722401286696" duration="8572000" />
+      <workItem from="1722419474711" duration="15288000" />
+      <workItem from="1722641652356" duration="2121000" />
+      <workItem from="1722649866877" duration="605000" />
+      <workItem from="1722693320082" duration="4245000" />
+      <workItem from="1722717931564" duration="2012000" />
+      <workItem from="1722791195848" duration="4725000" />
+      <workItem from="1722877289367" duration="9864000" />
+      <workItem from="1722889687162" duration="2331000" />
+      <workItem from="1722897479666" duration="495000" />
+      <workItem from="1722932082997" duration="8698000" />
+      <workItem from="1722948095805" duration="110000" />
+      <workItem from="1723028521340" duration="538000" />
+      <workItem from="1723029225247" duration="1097000" />
+      <workItem from="1723030788761" duration="4208000" />
+      <workItem from="1723035076049" duration="540000" />
+      <workItem from="1723035628763" duration="1819000" />
+      <workItem from="1723136948194" duration="5863000" />
+      <workItem from="1723229782603" duration="595000" />
+      <workItem from="1723234838163" duration="17000" />
+      <workItem from="1723235240943" duration="884000" />
+      <workItem from="1723236238268" duration="14799000" />
+      <workItem from="1723305193841" duration="9216000" />
+      <workItem from="1723391801987" duration="951000" />
+      <workItem from="1723403962292" duration="807000" />
+      <workItem from="1723413698468" duration="2454000" />
+      <workItem from="1723474902474" duration="2536000" />
+      <workItem from="1723504138818" duration="651000" />
+      <workItem from="1723508361843" duration="7000" />
+      <workItem from="1723508392891" duration="307000" />
+      <workItem from="1723594942072" duration="1172000" />
+      <workItem from="1723607854629" duration="1297000" />
+      <workItem from="1723689442369" duration="298000" />
+      <workItem from="1723786693873" duration="1644000" />
+      <workItem from="1723799587251" duration="1350000" />
+      <workItem from="1723882945081" duration="148000" />
+      <workItem from="1723901652480" duration="3499000" />
+      <workItem from="1723909707768" duration="1761000" />
+      <workItem from="1724098294724" duration="1089000" />
+      <workItem from="1724145198241" duration="1487000" />
+      <workItem from="1724171555887" duration="1099000" />
+    </task>
+    <task id="LOCAL-00001" summary="created the user class">
+      <option name="closed" value="true" />
+      <created>1722375541944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722375541944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added role class ,token class and interfaces for the user,role,token">
+      <option name="closed" value="true" />
+      <created>1722377992417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722377992417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added the security config">
+      <option name="closed" value="true" />
+      <created>1722379799335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722379799335</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added BeansConfig class">
+      <option name="closed" value="true" />
+      <created>1722380605674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722380605674</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implemented the UserDetailsService with the UserDetailsServiceImpl class">
+      <option name="closed" value="true" />
+      <created>1722381025912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722381025912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implemented the JwtFilter class with JwtFilter">
+      <option name="closed" value="true" />
+      <created>1722382116247</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722382116247</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added JwtService class">
+      <option name="closed" value="true" />
+      <created>1722388994159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722388994159</updated>
+    </task>
+    <task id="LOCAL-00008" summary="completed securing the app">
+      <option name="closed" value="true" />
+      <created>1722391195220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722391195220</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added registration feature">
+      <option name="closed" value="true" />
+      <created>1722398742135</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722398742135</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added registration feature">
+      <option name="closed" value="true" />
+      <created>1722427896962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722427896962</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added login feature">
+      <option name="closed" value="true" />
+      <created>1722433654466</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722433654466</updated>
+    </task>
+    <task id="LOCAL-00012" summary="optimized login and register features">
+      <option name="closed" value="true" />
+      <created>1722882611247</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722882611247</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created the user class" />
+    <MESSAGE value="added role class ,token class and interfaces for the user,role,token" />
+    <MESSAGE value="added the security config" />
+    <MESSAGE value="added BeansConfig class" />
+    <MESSAGE value="implemented the UserDetailsService with the UserDetailsServiceImpl class" />
+    <MESSAGE value="implemented the JwtFilter class with JwtFilter" />
+    <MESSAGE value="added JwtService class" />
+    <MESSAGE value="completed securing the app" />
+    <MESSAGE value="added registration feature" />
+    <MESSAGE value="added login feature" />
+    <MESSAGE value="optimized login and register features" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized login and register features" />
+  </component>
+</project>
