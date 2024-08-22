@@ -79,10 +79,9 @@ public class ReportService {
         Path imagePath = Path.of(imageDirectory, imageName);
 
         if (Files.exists(imagePath)) {
-            byte[] imageBytes = Files.readAllBytes(imagePath);
-            return imageBytes;
+            return Files.readAllBytes(imagePath);
         } else {
-            return null; // Handle missing images
+            return null;
         }
     }
 
