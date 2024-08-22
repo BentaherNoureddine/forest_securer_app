@@ -10,10 +10,8 @@ import { RouterModule } from '@angular/router';
   templateUrl: './reports.component.html',
   styleUrls: ['./reports.component.css']
 })
-export class ReportsComponent implements OnInit {
+export class ReportsComponent {
   @Input() report!: Report;
 
-  ngOnInit() {
-    console.log('Report input received:', this.report); // Log the report input
-  }
+
 }
