@@ -30,6 +30,9 @@ public class Report {
 
     private String reporterId;
 
+    private String title;
+
+    private String address;
 
     private String imagePath;
 

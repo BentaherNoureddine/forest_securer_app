@@ -29,6 +29,8 @@ public class ReportService {
 
         Report report = Report.builder()
                 .category(request.category())
+                .title(request.title())
+                .address(request.address())
                 .location(request.location())
                 .description(request.description())
                 .imagePath(imagePath)

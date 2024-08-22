@@ -25,7 +25,13 @@ public record ReportRequest (
 
 
     @NotNull(message = "the location mandatory")
-    String location
+    String location,
+
+    @NotNull(message = "the title mandatory")
+    String title,
+
+    @NotNull(message = "the address mandatory")
+    String address
     ) {
 
 }

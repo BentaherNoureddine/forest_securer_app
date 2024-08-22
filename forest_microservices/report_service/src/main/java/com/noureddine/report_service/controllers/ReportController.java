@@ -33,6 +33,8 @@ public class ReportController {
             @RequestParam("reporterId") String reporterId,
             @RequestParam("description") String description,
             @RequestParam("location") String location,
+            @RequestParam("title") String title,
+            @RequestParam("address") String address,
             @RequestParam(value = "image", required = false) MultipartFile image) {
         try {
             String imagePath = null;
@@ -41,7 +43,7 @@ public class ReportController {
                 imagePath = reportService.saveImageToStorage("src/main/resources/static/images", image);
             }
 
-            ReportRequest request = new ReportRequest(category,reporterId,description,image,location);
+            ReportRequest request = new ReportRequest(category,reporterId,description,image,location,address,title);
 
 
             reportService.create(request, imagePath);
