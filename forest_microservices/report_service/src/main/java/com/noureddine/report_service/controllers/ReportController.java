@@ -91,9 +91,16 @@ public class ReportController {
     public ResponseEntity<byte[]> getImage(@PathVariable String imagePath) {
         try {
             byte[] imageBytes = reportService.getImage("src/main/resources/static/images", imagePath);
+            for(int i=0;i<10;i++){
+                System.out.println(imagePath);
+                System.out.println(imageBytes);
+
+            }
+
             if (imageBytes != null) {
+                MediaType mediaType = MediaType.IMAGE_JPEG; // or determine the type dynamically
                 return ResponseEntity.ok()
-                        .contentType(MediaType.IMAGE_JPEG) // Adjust based on image type
+                        .contentType(mediaType)
                         .body(imageBytes);
             } else {
                 return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
@@ -103,7 +110,10 @@ public class ReportController {
         }
     }
 
-
-
-
 }
+
+
+
+
+
+

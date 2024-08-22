@@ -18,4 +18,8 @@ export class ReportService {
   getAllReports(): Observable<Report[]> {
     return this.http.get<Report[]>(`${this.baseUrl}/getAll`);
   }
+
+  getImage(imagePath:string): Observable<Blob> {
+    return this.http.get<Blob>(`${this.baseUrl}/getImage/${imagePath}`,{responseType : 'blob' as 'json'});
+  }
 }
