@@ -1,6 +1,6 @@
 <section class="listing">
-  <img class="listing-photo" [src]="housingLocation.photo" alt="Exterior photo of {{housingLocation.name}}">
-  <h2 class="listing-heading" >{{housingLocation.name}}</h2>
-  <p class="listing-location">{{housingLocation.city}},{{housingLocation.city}},{{housingLocation.state}}</p>
-  <a [routerLink]="['/details',housingLocation.id]">Learn More</a>
+  <img class="listing-photo" [src]="report.imagePath || 'default-image-path.jpg'" alt="Exterior photo of {{report.title}}">
+  <h2 class="listing-heading">{{report.title}}</h2>
+  <p class="listing-location">{{report.address}}</p>
+  <a [routerLink]="['/details', report.id]">More Details</a>
 </section>

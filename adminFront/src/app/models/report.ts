@@ -1,11 +1,14 @@
 import {Category} from "./Category";
 
-export class Report {
+export interface Report {
 
-   id?: number  ;
-   category?: Category;
-   description?: string;
-   reporterId? : string;
-   imagePath?: string;
-   location? : string;
+   id: number  ;
+   category: string;
+   title: string;
+   address: string;
+   description: string;
+   reporterId: string;
+   imagePath: string;
+   location: string;
+   created_at: string;
 }
