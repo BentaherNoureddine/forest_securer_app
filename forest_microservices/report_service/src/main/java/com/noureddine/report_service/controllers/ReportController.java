@@ -84,6 +84,18 @@ public class ReportController {
 
     }
 
+    //FETCH AN IMAGE BY THE GIVEN PATH
+    @GetMapping("/{imagePath}")
+    public ResponseEntity<?> getImage(@PathVariable String imagePath) {
+        try {
+            return ResponseEntity.status(HttpStatus.OK).body(
+                    reportService.getImage("src/main/resources/static/images", imagePath)
+            );
+        }catch (Exception e){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
+        }
+    }
+
 
 
 }
