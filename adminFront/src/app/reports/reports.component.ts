@@ -25,8 +25,5 @@ export class ReportsComponent implements OnInit {
       this.imageUrl = URL.createObjectURL(blob);
     });
   }
-  onImageError(event: Event) {
-    (event.target as HTMLImageElement).src = 'assets/default-image-path.jpg';
-  }
 
 }

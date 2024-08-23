@@ -12,14 +12,14 @@ export class ReportService {
   constructor(private http: HttpClient) {}
 
   getReportById(id: number): Observable<Report> {
-    return this.http.get<Report>(`${this.baseUrl}/${id}`);
+    return this.http.get<Report>(`${this.baseUrl}/getReport/${id}`);
   }
 
   getAllReports(): Observable<Report[]> {
     return this.http.get<Report[]>(`${this.baseUrl}/getAll`);
   }
 
-  getImage(imagePath:string): Observable<Blob> {
+  getImage(imagePath:string | undefined): Observable<Blob> {
     return this.http.get<Blob>(`${this.baseUrl}/getImage/${imagePath}`,{responseType : 'blob' as 'json'});
   }
 }

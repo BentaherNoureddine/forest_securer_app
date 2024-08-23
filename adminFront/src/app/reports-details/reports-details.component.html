@@ -1,1 +1,15 @@
-<p>reports-details works!</p>
+<article>
+  <img class="listing-photo" [src]="imageUrl" alt="Report img">
+  <section class="listing-description">
+    <h2 class="listing-heading">{{report?.title}}</h2>
+    <p class="listing-location">Category: {{report?.category}}</p>
+    <p class="listing-location"></p>
+  </section>
+  <section class="listing-features">
+    <h2 class="section-heading">About this Report</h2>
+    <ul>
+      <li>Description : {{report?.description}}</li>
+      <li>Reported: {{report?.reporterId}}</li>
+    </ul>
+  </section>
+</article>

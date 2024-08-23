@@ -78,8 +78,8 @@ public class ReportController {
 
 
     //FETCH REPORTS BY ID
-    @GetMapping("/{id}")
-    public Report getReport(Long id) {
+    @GetMapping("/getReport/{id}")
+    public Report getReport(@PathVariable Long id) {
 
         System.out.println(reportRepository.findById(id));
         return  reportRepository.findById(id).orElseThrow(() -> new NotFoundException("Report not found"));

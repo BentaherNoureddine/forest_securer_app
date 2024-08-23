@@ -30,7 +30,7 @@ class ReportScreenState extends State<ReportScreen> {
   final ImagePicker _picker = ImagePicker();
 
   late GoogleMapController mapController;
-  MapType _mapType = MapType.normal;
+  MapType _mapType = MapType.satellite;
   Category? _category = Category.FIRE;
 
   Set<Marker> markers = {};
