@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfb668e7-3f87-4d80-8295-9cf27c60f6b2" name="Changes" comment="optimized code">
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports/reports.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports/reports.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports/reports.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports/reports.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway_service/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/controllers/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/controllers/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/37c9dfa5-b3db-4314-ba88-171cc99db7cf_84ea5c87-5902-45bb-8740-4bf4dd4076294139025456269930089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/9ae12d94-f4c4-4640-b44b-c16e79dda48f_1000000034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/e4ba7a31-7b45-45a1-9631-77e816883aaf_b3c4ac54-0a51-4a06-8e8d-366a5d8dd7155098701963801321809.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fa46f0bf-fcde-4d9f-83d7-b12105b49005_06525ef7-5a82-431a-a4df-e6c92b2cfa0a2335572775088408405.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fa738ae8-4894-4166-bf72-d42048319eb1_b3c4ac54-0a51-4a06-8e8d-366a5d8dd7155098701963801321809.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/core/strings/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/core/strings/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ReportServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ReportServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -121,7 +132,8 @@
       <workItem from="1723504127970" duration="683000" />
       <workItem from="1724325128933" duration="975000" />
       <workItem from="1724326460997" duration="3558000" />
-      <workItem from="1724339622872" duration="6382000" />
+      <workItem from="1724339622872" duration="8383000" />
+      <workItem from="1724370261955" duration="5515000" />
     </task>
     <task id="LOCAL-00001" summary="change some details">
       <option name="closed" value="true" />

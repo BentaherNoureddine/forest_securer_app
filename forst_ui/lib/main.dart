@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:forst_ui/features/auth/pages/login_screen.dart';
 import 'package:forst_ui/features/auth/pages/sign_up.dart';
 import 'package:forst_ui/features/report/pages/report_page.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: const ReportScreen(),
+      home: const LoginScreen(),
     );
   }
 }

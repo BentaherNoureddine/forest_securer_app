@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2453840-5726-493c-9173-aa4b7949815c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/controllers/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/controllers/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/models/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/models/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/services/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/services/ReportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/core/strings/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/core/strings/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,25 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.GatewayServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Nourdine/Documents/Nouri/desc/SOA/app/gatewayService",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nourdine/Documents/Nouri/desc/SOA/app/gatewayService&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -91,6 +105,7 @@
       <workItem from="1723474891596" duration="1913000" />
       <workItem from="1723504106755" duration="715000" />
       <workItem from="1724325136891" duration="1569000" />
+      <workItem from="1724371269384" duration="3459000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@ export class ReportService {
 
   constructor(private http: HttpClient) {}
 
-  getReport(id: number): Observable<Report> {
+  getReportById(id: number): Observable<Report> {
     return this.http.get<Report>(`${this.baseUrl}/${id}`);
   }
 

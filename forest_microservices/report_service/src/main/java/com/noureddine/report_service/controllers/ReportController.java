@@ -20,7 +20,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/reports")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200" ,"http://192.168.1.16:4200"})
 public class ReportController {
 
     private final ReportService reportService;
@@ -91,12 +91,6 @@ public class ReportController {
     public ResponseEntity<byte[]> getImage(@PathVariable String imagePath) {
         try {
             byte[] imageBytes = reportService.getImage("src/main/resources/static/images", imagePath);
-            for(int i=0;i<10;i++){
-                System.out.println(imagePath);
-                System.out.println(imageBytes);
-
-            }
-
             if (imageBytes != null) {
                 MediaType mediaType = MediaType.IMAGE_JPEG; // or determine the type dynamically
                 return ResponseEntity.ok()
