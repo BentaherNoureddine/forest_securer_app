@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb668e7-3f87-4d80-8295-9cf27c60f6b2" name="Changes" comment="added CORS config to allow physical devices to  make api request, and added some config to upload/download big sized files">
-      <change afterPath="$PROJECT_DIR$/../../adminFront/src/app/models/authentication_response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/token_service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway_service/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dfb668e7-3f87-4d80-8295-9cf27c60f6b2" name="Changes" comment="optimized the report model to easily handle the longitude and latitude of a report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/models/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/models/Report.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/services/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/report_service/services/ReportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/report/entities/report_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/report/entities/report_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +121,7 @@
       <workItem from="1724370261955" duration="7448000" />
       <workItem from="1724445272759" duration="1328000" />
       <workItem from="1724501744107" duration="1476000" />
-      <workItem from="1724524187538" duration="961000" />
+      <workItem from="1724524187538" duration="1513000" />
     </task>
     <task id="LOCAL-00001" summary="change some details">
       <option name="closed" value="true" />
@@ -168,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724432485717</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="optimized the report model to easily handle the longitude and latitude of a report">
+      <option name="closed" value="true" />
+      <created>1724525651724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724525651724</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +183,7 @@
     <MESSAGE value="added a method to get an image by passing it s path" />
     <MESSAGE value="optimized code" />
     <MESSAGE value="added CORS config to allow physical devices to  make api request, and added some config to upload/download big sized files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CORS config to allow physical devices to  make api request, and added some config to upload/download big sized files" />
+    <MESSAGE value="optimized the report model to easily handle the longitude and latitude of a report" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimized the report model to easily handle the longitude and latitude of a report" />
   </component>
 </project>

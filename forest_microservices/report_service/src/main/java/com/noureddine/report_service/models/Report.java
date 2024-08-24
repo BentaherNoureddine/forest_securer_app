@@ -33,9 +33,9 @@ public class Report {
 
     private String imagePath;
 
-    private Integer lat;
+    private String lat;
 
-    private Integer lng;
+    private String lng;
 
     @CreatedDate
     private Date createdAt;

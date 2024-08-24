@@ -4,9 +4,6 @@ package com.noureddine.report_service.requests;
 import com.noureddine.report_service.models.Category;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.io.File;
-
 public record ReportRequest (
 
 
@@ -31,10 +28,10 @@ public record ReportRequest (
     String title,
 
     @NotNull(message = "the latitude is mandatory")
-    Integer lat,
+    String lat,
 
     @NotNull(message = "the longitude is mandatory")
-    Integer lng,
+    String lng,
 
     @NotNull(message = "the address mandatory")
     String address

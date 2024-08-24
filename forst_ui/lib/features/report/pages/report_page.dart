@@ -95,7 +95,8 @@ class ReportScreenState extends State<ReportScreen> {
       request.fields['title'] = title;
       request.fields['address'] = address.toString();
       request.fields['reporterId'] = email!;
-      request.fields['location'] = actionPosition.toString();
+      request.fields['lng'] = actionPosition.longitude as String ;
+      request.fields['lat'] = actionPosition.latitude as String ;
 
       if (_image != null) {
         request.files.add(await http.MultipartFile.fromPath(
