@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2453840-5726-493c-9173-aa4b7949815c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../adminFront/src/app/models/authentication_response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/token_service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/models/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/models/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/services/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/services/ReportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,7 @@
       <workItem from="1724371269384" duration="4071000" />
       <workItem from="1724445285760" duration="595000" />
       <workItem from="1724501609792" duration="3913000" />
+      <workItem from="1724524180041" duration="604000" />
     </task>
     <servers />
   </component>

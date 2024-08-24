@@ -31,7 +31,8 @@ public class ReportService {
                 .category(request.category())
                 .title(request.title())
                 .address(request.address())
-                .location(request.location())
+                .lat(request.lat())
+                .lng(request.lng())
                 .description(request.description())
                 .imagePath(imagePath)
                 .reporterId(request.reporterId())
@@ -39,9 +40,10 @@ public class ReportService {
                 .build();
         reportRepository.save(report);
 
-
     }
 
+
+    //FETCH ALL  REPORTS
     public List<Report> getAllReports() throws Exception {
 
             return reportRepository.findAll();
@@ -58,7 +60,7 @@ public class ReportService {
 
 
 
-    // Save image in a local directory
+    // SAVE AN IMAGE TO A LOCAL DIRECTORY
     public String saveImageToStorage(String uploadDirectory, MultipartFile imageFile) throws IOException {
         String uniqueFileName = UUID.randomUUID().toString() + "_" + imageFile.getOriginalFilename();
         Path uploadPath = Path.of(uploadDirectory);
@@ -74,7 +76,7 @@ public class ReportService {
     }
 
 
-    // To view an image
+    // GET IMAGE BY IT S NAME
     public byte[] getImage(String imageDirectory, String imageName) throws IOException {
         Path imagePath = Path.of(imageDirectory, imageName);
 
@@ -85,26 +87,5 @@ public class ReportService {
         }
     }
 
-    // Delete an image
-    public String deleteImage(String imageDirectory, String imageName) throws IOException {
-        Path imagePath = Path.of(imageDirectory, imageName);
 
-        if (Files.exists(imagePath)) {
-            Files.delete(imagePath);
-            return "Success";
-        } else {
-            return "Failed"; // Handle missing images
-        }
-    }
-
-    public  void createAd(MultipartFile[] adsImages ) throws IOException {
-        String uploadDirectory = "src/main/resources/static/images/ads";
-        String adsImagesString = "";
-        for (MultipartFile imageFile : adsImages) {
-            adsImagesString += saveImageToStorage(uploadDirectory, imageFile) + ",";
-        }
-
-
-
-    }
 }

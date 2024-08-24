@@ -4,9 +4,6 @@ package com.noureddine.report_service.models;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
-import org.springframework.web.multipart.MultipartFile;
-
-import java.io.File;
 import java.util.Date;
 
 
@@ -36,7 +33,9 @@ public class Report {
 
     private String imagePath;
 
-    private String location;
+    private Integer lat;
+
+    private Integer lng;
 
     @CreatedDate
     private Date createdAt;

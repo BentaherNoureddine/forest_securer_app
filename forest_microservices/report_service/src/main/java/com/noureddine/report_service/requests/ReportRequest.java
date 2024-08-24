@@ -30,6 +30,12 @@ public record ReportRequest (
     @NotNull(message = "the title mandatory")
     String title,
 
+    @NotNull(message = "the latitude is mandatory")
+    Integer lat,
+
+    @NotNull(message = "the longitude is mandatory")
+    Integer lng,
+
     @NotNull(message = "the address mandatory")
     String address
     ) {
