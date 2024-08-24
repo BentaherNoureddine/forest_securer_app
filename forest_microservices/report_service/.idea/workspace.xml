@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfb668e7-3f87-4d80-8295-9cf27c60f6b2" name="Changes" comment="added CORS config to allow physical devices to  make api request, and added some config to upload/download big sized files">
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway_service/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +124,7 @@
       <workItem from="1724339622872" duration="8383000" />
       <workItem from="1724370261955" duration="7448000" />
       <workItem from="1724445272759" duration="1328000" />
+      <workItem from="1724501744107" duration="1476000" />
     </task>
     <task id="LOCAL-00001" summary="change some details">
       <option name="closed" value="true" />

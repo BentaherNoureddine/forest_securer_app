@@ -6,11 +6,12 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("auth")
-@CrossOrigin(origins = {"http://localhost:4200" ,"http://192.168.1.16:4200"})
+@CrossOrigin(origins = {"http://localhost:9654" ,"http://192.168.1.16"})
 @RequiredArgsConstructor
 public class AuthenticationController {
 
@@ -34,6 +35,7 @@ public class AuthenticationController {
 
 
     //AUTHENTICATION API
+    @CrossOrigin(origins ="http://localhost:9654" )
     @PostMapping("/authenticate")
     public  ResponseEntity<AuthenticationResponse> authenticate(
             @RequestBody @Valid final AuthenticationRequest request
