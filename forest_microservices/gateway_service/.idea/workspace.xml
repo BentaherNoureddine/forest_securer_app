@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2453840-5726-493c-9173-aa4b7949815c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports/reports.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports/reports.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/service/report_service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/controllers/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/controllers/ReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +90,7 @@
       <workItem from="1723504106755" duration="715000" />
       <workItem from="1724325136891" duration="1569000" />
       <workItem from="1724371269384" duration="4071000" />
+      <workItem from="1724445285760" duration="595000" />
     </task>
     <servers />
   </component>

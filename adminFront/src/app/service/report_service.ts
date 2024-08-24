@@ -22,4 +22,8 @@ export class ReportService {
   getImage(imagePath:string | undefined): Observable<Blob> {
     return this.http.get<Blob>(`${this.baseUrl}/getImage/${imagePath}`,{responseType : 'blob' as 'json'});
   }
+
+  getReportLat(location :string) : number {
+    return Number(location.indexOf(location,7));
+  }
 }
