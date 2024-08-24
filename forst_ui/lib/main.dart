@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:forst_ui/features/auth/pages/login_screen.dart';
-import 'package:forst_ui/features/auth/pages/sign_up.dart';
-import 'package:forst_ui/features/report/pages/report_page.dart';
+import 'package:forst_ui/features/auth/pages/sign_up_screen.dart';
+import 'package:forst_ui/features/report/pages/report_screen.dart';
 
 
 

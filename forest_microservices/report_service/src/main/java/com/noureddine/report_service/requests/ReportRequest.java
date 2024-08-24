@@ -20,10 +20,6 @@ public record ReportRequest (
     @NotNull(message = "the photo mandatory")
     MultipartFile  img,
 
-
-    @NotNull(message = "the location mandatory")
-    String location,
-
     @NotNull(message = "the title mandatory")
     String title,
 

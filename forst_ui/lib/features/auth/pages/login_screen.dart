@@ -6,9 +6,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:validators/validators.dart';
 import 'package:forst_ui/core/utils/snack_bar_message.dart';
 import 'package:forst_ui/features/admin/pages/admin_home_page.dart';
-import 'package:forst_ui/features/auth/pages/sign_up.dart';
+import 'package:forst_ui/features/auth/pages/sign_up_screen.dart';
 import 'package:forst_ui/features/auth/widgets/auth_btn.dart';
-import 'package:forst_ui/features/report/pages/report_page.dart';
+import 'package:forst_ui/features/report/pages/report_screen.dart';
 
 import '../../../core/strings/constants.dart';
 
@@ -48,11 +48,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
         final decodedToken = decodeJwt(token);
         final userAuthorities = decodedToken?['authorities'] ?? [];
-
-        for(int i=0;i<10;i++){
-          print(decodedToken?['authorities']);
-        }
-
         final isAdmin = userAuthorities.contains("ADMIN");
 
         if (isAdmin) {
@@ -88,80 +83,103 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Login Page"),
-        backgroundColor: Colors.green,
+        title: const Center(
+          child:
+              Text(
+              "Login",
+              style: TextStyle( fontSize: 35),
+          ),
+        ),
+        backgroundColor: Colors.deepPurpleAccent,
       ),
-      backgroundColor: Colors.brown,
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            TextFormField(
-              validator: (value) {
-                if (value == null || value.isEmpty) {
-                  return 'Email is mandatory';
-                } else if (!isEmail(value)) {
-                  return "Invalid email address";
-                }
-                return null;
-              },
-              controller: emailController,
-              decoration: const InputDecoration(
-                hintText: "Email",
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.white),
+      backgroundColor: Colors.white,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const SizedBox(height: 235,),
+              TextFormField(
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'Email is mandatory';
+                  } else if (!isEmail(value)) {
+                    return "Invalid email address";
+                  }
+                  return null;
+                },
+                controller: emailController,
+                decoration: InputDecoration(
+                  hintText: "Email",
+                  labelText: "Email",
+                  labelStyle:
+                      const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(
+                        color: Colors.deepPurpleAccent, width: 3.5),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        const BorderSide(color: Colors.deepPurple, width: 5),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
                 ),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.green),
+                keyboardType: TextInputType.emailAddress,
+              ),
+              const SizedBox(height: 20),
+              TextFormField(
+                validator: (value) {
+                  if (value == null || value.isEmpty || value.length < 8) {
+                    return 'Password is mandatory and must be at least 8 characters long';
+                  }
+                  return null;
+                },
+                obscureText: true,
+                controller: passwordController,
+                decoration: InputDecoration(
+                  hintText: "Password",
+                  labelText: "Password",
+                  labelStyle:
+                      const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(
+                        color: Colors.deepPurpleAccent, width: 3.5),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        const BorderSide(color: Colors.deepPurple, width: 5),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
                 ),
               ),
-              keyboardType: TextInputType.emailAddress,
-            ),
-            const SizedBox(height: 20),
-            TextFormField(
-              validator: (value) {
-                if (value == null || value.isEmpty || value.length < 8) {
-                  return 'Password is mandatory and must be at least 8 characters long';
-                }
-                return null;
-              },
-              obscureText: true,
-              controller: passwordController,
-              decoration: const InputDecoration(
-                hintText: "Password",
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.white),
+              const SizedBox(height: 20),
+              AuthButton(
+                onPressed: () => login(
+                  emailController.text,
+                  passwordController.text,
                 ),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.green),
+                color: Colors.deepPurpleAccent,
+                text: "Login",
+              ),
+              const SizedBox(height: 20),
+              TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const SignUpScreen()),
+                  );
+                },
+                child: const Text(
+                  "Don't have an account? Sign up",
+                  style: TextStyle(color: Colors.deepPurpleAccent),
                 ),
               ),
-            ),
-            const SizedBox(height: 20),
-            AuthButton(
-              onPressed: () => login(
-                emailController.text,
-                passwordController.text,
-              ),
-              color: Colors.green,
-              text: "Login",
-            ),
-            const SizedBox(height: 20),
-            TextButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const SignUpScreen()),
-                );
-              },
-              child: const Text(
-                "Don't have an account? Sign up",
-                style: TextStyle(color: Colors.green),
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

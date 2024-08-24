@@ -1,14 +1,14 @@
-import {Category} from "./Category";
 
 export interface Report {
 
-   id: number  ;
+   id: number;
    category: string;
    title: string;
    address: string;
    description: string;
    reporterId: string;
    imagePath: string;
-   location: string;
+   lat: string;
+   lng: string;
    created_at: string;
 }
