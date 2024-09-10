@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2453840-5726-493c-9173-aa4b7949815c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/repositories/UserServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../adminFront/src/app/reports-details/reports-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/authentication_service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminFront/src/app/service/token_service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaDiscovery_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaDiscovery_service/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noureddine/gateway_service/GatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noureddine/gateway_service/GatewayServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicaion.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicaion.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/ReportServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/ReportServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/controllers/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/controllers/ReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/requests/ReportRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/services/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../report_service/src/main/java/com/noureddine/report_service/services/ReportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/auth/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user_authentication_service/src/main/java/com/noureddine/users/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/core/strings/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/core/strings/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/core/utils/snack_bar_message.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/core/utils/snack_bar_message.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/auth/pages/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/auth/pages/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/report/pages/report_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/features/report/repositories/LocationHandler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../forst_ui/lib/features/report/repositories/LocationHandler.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/locations.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../forst_ui/lib/locations.g.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +118,17 @@
       <workItem from="1724445285760" duration="595000" />
       <workItem from="1724501609792" duration="3913000" />
       <workItem from="1724524180041" duration="1975000" />
+      <workItem from="1724549455362" duration="2000" />
+      <workItem from="1724549469942" duration="38000" />
+      <workItem from="1724601888074" duration="893000" />
+      <workItem from="1724623991216" duration="737000" />
+      <workItem from="1724702906028" duration="729000" />
+      <workItem from="1724703747628" duration="817000" />
+      <workItem from="1725867948698" duration="1469000" />
+      <workItem from="1725874986487" duration="1270000" />
+      <workItem from="1725877952029" duration="599000" />
+      <workItem from="1725894122794" duration="593000" />
+      <workItem from="1725988002047" duration="2591000" />
     </task>
     <servers />
   </component>

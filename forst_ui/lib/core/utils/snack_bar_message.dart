@@ -9,7 +9,7 @@ class SnackBarMessage {
           message,
           style: const TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.deepPurple,
       ),
     );
   }

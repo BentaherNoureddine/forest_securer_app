@@ -37,14 +37,14 @@ class ReportScreenState extends State<ReportScreen> {
 
   Future<void> _pickImage() async {
     setState(() {
-      _isLoading = true; // Start loading animation
+      _isLoading = true;
     });
-    final pickedFile = await _picker.pickImage(source: ImageSource.camera);
+    final pickedFile = await _picker.pickImage(source: ImageSource.camera,preferredCameraDevice: CameraDevice.rear);
     setState(() {
       if (pickedFile != null) {
         _image = File(pickedFile.path);
       }
-      _isLoading = false; // End loading animation
+      _isLoading = false;
     });
   }
 
@@ -125,10 +125,9 @@ class ReportScreenState extends State<ReportScreen> {
   }
 
   void addMarker(LatLng latLng) {
-    print(
-        "Current action position before update: ${actionPosition.latitude}, ${actionPosition.longitude}");
 
     setState(() {
+      markers.clear();
       markers.add(
         Marker(
           markerId: const MarkerId("tapped_marker"),
@@ -136,19 +135,12 @@ class ReportScreenState extends State<ReportScreen> {
           onTap: () {
             setState(() {
               markedPosition = latLng;
-              actionPosition = latLng; // Update actionPosition
-              print(
-                  "Updated action position: ${actionPosition.latitude}, ${actionPosition.longitude}");
+              actionPosition = latLng;
             });
           },
         ),
       );
-
-      print("Markers count: ${markers.length}");
-      for (var marker in markers) {
-        print(
-            "Marker position: ${marker.position.latitude}, ${marker.position.longitude}");
-      }
+      actionPosition=latLng;
     });
   }
 

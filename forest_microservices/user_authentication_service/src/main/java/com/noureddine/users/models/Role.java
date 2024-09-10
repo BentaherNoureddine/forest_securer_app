@@ -18,6 +18,8 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @EntityListeners(AuditingEntityListener.class)
+
+         //todo this class will be changed
 public class Role {
 
 

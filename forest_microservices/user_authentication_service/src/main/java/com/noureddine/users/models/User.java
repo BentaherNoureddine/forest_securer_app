@@ -38,6 +38,8 @@ public class User implements UserDetails, Principal {
     @Column(unique = true)
     private String email;
 
+    private Integer score;
+
     private String password;
 
     private boolean accountLocked;
@@ -95,7 +97,6 @@ public class User implements UserDetails, Principal {
     public String getName() {
         return email;
     }
-
 
 
 

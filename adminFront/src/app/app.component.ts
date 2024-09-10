@@ -9,8 +9,7 @@ import {NgOptimizedImage} from "@angular/common";
   template:`
     <main>
       <header class="brand-name">
-        <img class="brand-logo" src="../assets/example-house.jpg" alt="logo">
-
+        <h1>Forest Securer</h1>
       </header>
       <section class="content">
         <router-outlet></router-outlet>

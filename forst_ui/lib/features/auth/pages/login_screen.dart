@@ -1,11 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:validators/validators.dart';
 import 'package:forst_ui/core/utils/snack_bar_message.dart';
-import 'package:forst_ui/features/admin/pages/admin_home_page.dart';
 import 'package:forst_ui/features/auth/pages/sign_up_screen.dart';
 import 'package:forst_ui/features/auth/widgets/auth_btn.dart';
 import 'package:forst_ui/features/report/pages/report_screen.dart';
@@ -34,33 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
       if (response.statusCode == 200) {
         final data = jsonDecode(response.body);
         final token = data['token'];
-
-        Map<String?, dynamic>? decodeJwt(String? token) {
-          if (token == null) return null;
-          try {
-            final jwt = JWT.decode(token);
-            return jwt.payload;
-          } catch (e) {
-            print("Error decoding JWT: $e");
-            return null;
-          }
-        }
-
-        final decodedToken = decodeJwt(token);
-        final userAuthorities = decodedToken?['authorities'] ?? [];
-        final isAdmin = userAuthorities.contains("ADMIN");
-
-        if (isAdmin) {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(builder: (context) => const AdminHomePage()),
-          );
-        } else {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(builder: (context) => const ReportScreen()),
-          );
-        }
+        Navigator.push(context, MaterialPageRoute(builder: (context)=>const ReportScreen()));
 
         final prefs = await SharedPreferences.getInstance();
         await prefs.setString('token', token);

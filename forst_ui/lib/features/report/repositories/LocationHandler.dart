@@ -17,7 +17,7 @@ abstract class LocationHandler {
               title: const Center(child: Text("Location services is disabled")),
               content: const Text("Please enable the location service "),
               actions: [
-                TextButton(onPressed: () => Navigator.pop(context), child: const Text("Cancel")),
+                TextButton(onPressed: () => Navigator.pop(context), child: const Text("OK")),
               ],
         );
       });

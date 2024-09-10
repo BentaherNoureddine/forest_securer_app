@@ -1,20 +1,20 @@
 <article>
   <img class="listing-photo" [src]="imageUrl" alt="Report img">
   <section class="listing-description">
-    <h2 class="listing-heading">{{report?.title}}</h2>
-    <p class="listing-location">Category: {{report?.category}}</p>
-    <p class="listing-location"></p>
-  </section>
-  <section class="listing-features">
-    <h2 class="section-heading">About this Report</h2>
-    <ul>
-      <li>Description : {{report?.description}}</li>
-      <li>Reporter: {{report?.reporterId}}</li>
-    </ul>
-  </section>
+    <h2 class="listing-heading"><li>{{report.title}}</h2>
+    <p class="listing-location">  Category: {{report.category}}</p>
+    <p class="listing-location">Description : {{report.description}}</p>
+    <p class="listing-location"> Reporter: {{report.reporterId}}</p>
   <section>
-    <google-map   height="500px"
-                  width="100%"
-                  ></google-map>
+    <google-map
+      height="500px"
+      width="100%"
+      (mapInitialized)="ready($event)">
+      <map-marker
+        (markerInitialized)="initMarker($event)">
+      </map-marker>
+    </google-map>
+  </section>
+
   </section>
 </article>
